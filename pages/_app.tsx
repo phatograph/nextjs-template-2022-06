@@ -1,7 +1,7 @@
 import React from 'react'
 // import className from 'classnames'
 import Head from 'next/head'
-import {useRouter} from 'next/router'
+// import {useRouter} from 'next/router'
 import smoothscroll from 'smoothscroll-polyfill'
 // import Link from 'next/link'
 // import App, {AppProps, AppContext} from 'next/app'
@@ -40,7 +40,7 @@ const MyApp = (appProps: AppProps) => {
   const title = 'SEA'
   const description = 'SEA'
 
-  const router = useRouter()
+  // const router = useRouter()
 
   // const handleRouteChange = (url: string) => {
   //   window?.gtag?.('config', GA_TRACKING_ID, {

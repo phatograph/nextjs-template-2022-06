@@ -249,7 +249,7 @@ source {
   min-height: 100vh;
 
   &--webkit-fill-available {
-    --webkit-fill-available: fill-available;
+    --webkit-fill-available: stretch;
   }
 }
 
@@ -258,7 +258,7 @@ source {
   top: 0;
   left: 0;
   width: 100%;
-  height: fill-available;
+  height: stretch;
   pointer-events: none;
 }
 
@@ -302,16 +302,4 @@ source {
   &__item {
     scroll-snap-align: start;
   }
-}
-
-.LineClamp {
-  display: box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.Sticky {
-  position: sticky;
 }
