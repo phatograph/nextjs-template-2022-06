@@ -25,6 +25,13 @@ $screen-tablets-xl: 1320px;
 //   }
 // }
 
+:root {
+  --global-space: 20px;
+  --app-width: 1134px;
+  --app-padding: calc(var(--global-space) * 1.25);
+  --webkit-fill-available: 100vh;
+}
+
 @mixin overlay {
   position: fixed;
   top: 0;
@@ -106,13 +113,6 @@ $screen-tablets-xl: 1320px;
       background-color: #fff;
     }
   }
-}
-
-:root {
-  --global-space: 20px;
-  --app-width: 1080px;
-  --app-padding: calc(var(--global-space) * 1.25);
-  --webkit-fill-available: 100vh;
 }
 
 html {
